@@ -1,0 +1,26 @@
+{
+    "0001": {
+        "className": "prod-1",
+        "src": "img/0001.jpeg",
+        "alt": "Подушка &laquo;Trema&raquo;",
+        "title": "Подушка &laquo;Trema&raquo;",
+        "descr": "Отличная подушка за&nbsp;низкую цену",
+        "price": "799 р."
+    },
+    "0002": {
+        "className": "prod-2",
+        "src": "img/0002.jpeg",
+        "alt": "Обложка для плашета &laquo;Carnet&raquo;",
+        "title": "Обложка для плашета &laquo;Carnet&raquo;",
+        "descr": "Обложка &quot;Carnetу&nbsp;&mdash; отличная защита для вашего планшета",
+        "price": "2 499 р."
+    },
+    "0003": {
+        "className": "prod-3",
+        "src": "img/0003.jpeg",
+        "alt": "Часы &laquo;Kruka&raquo;",
+        "title": "Часы «Kruka»",
+        "descr": "Стильные часы от&nbsp;компании &laquo;Kruka&raquo;",
+        "price": "3 999 р."
+    }
+}

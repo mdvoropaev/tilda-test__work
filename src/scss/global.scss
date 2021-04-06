@@ -1,0 +1,32 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+
+.btn {
+    border: none;
+    padding: 14px 0;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--color-black-hover);
+    transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+}
+
+.btn:disabled {
+    opacity: 0.4;
+    pointer-events: none;
+}

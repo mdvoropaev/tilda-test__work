@@ -1,0 +1,50 @@
+<header class="header">
+  <div class="container">
+    <a href="javascript:void(0);" class="header__logo">
+      <img
+        src="img/cloud-refresh.png"
+        class="logo"
+        alt="test Tilda"
+        title="test Tilda"
+      />
+    </a>
+    <button class="burger btn-reset header__burger">
+      <span class="burger__line"></span>
+    </button>
+    <nav class="header_nav nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">Каталог</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Акции</a></li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Оплата и&nbsp;доставка</a>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+        <button class="nav__close btn-reset">
+          <span class="nav__line"></span>
+        </button>
+      </ul>
+      <div class="header__cart cart" tabindex="0">
+        <div class="cart__text">
+          <span class="text">Корзина</span>
+          <span class="cart__quantity">0</span>
+        </div>
+        <div class="cart-content">
+          <ul class="cart-content__list" data-simplebar></ul>
+          <div class="cart-content__button">
+            <div class="cart-content__fullprice">
+              <span>Итого:</span>
+              <span class="fullprice"></span>
+            </div>
+            <button
+              class="cart-content__btn btn"
+              data-graph-path="modal"
+              data-graph-animation="fadeInUp"
+            >
+              Оформить заказ
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
